@@ -1,0 +1,134 @@
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  .banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  .banner h1 {
+    font-size: 48px;
+    color: #fff;
+  }
+  .banner .btn {
+    margin-top: 20px;
+  }
+  .section-title {
+    margin: 30px 0;
+    font-size: 24px;
+  }
+  .movie-poster {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .movie-poster {
+      height: 150px;
+    }
+    .banner h1 {
+      font-size: 32px;
+    }
+    .banner {
+      height: 40vh;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .movie-poster {
+      height: 120px;
+    }
+    .banner h1 {
+      font-size: 28px;
+    }
+    .banner {
+      height: 35vh;
+    }
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #1c1c1c;
+    padding: 10px 20px;
+  }
+  .navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #fff;
+  }
+  .navbar-nav {
+    margin-right: 300px;
+  }
+  .navbar-nav .nav-link {
+    color: #ccc;
+    margin-right: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 30 30\'%3E%3Cpath stroke=\'rgba%2888, 88, 88, 0.8%29\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' stroke-width=\'2\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E');
+  }
+  .navbar-brand img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .navbar .login-icon {
+    color: #ccc;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .navbar .login-icon:hover {
+    color: #fff;
+  }
+
+  /* Footer styling */
+  .footer {
+    background-color: #121212;
+    padding: 20px 0;
+    color: #ccc;
+  }
+  .footer h5 {
+    color: #fff;
+  }
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  .footer ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .footer ul li a:hover {
+    color: #fff;
+  }
+  .footer .social a {
+    color: #ccc;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .footer .social a:hover {
+    color: #fff;
+  }
+  .footer .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
